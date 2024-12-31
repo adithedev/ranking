@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Ranking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="intro">
+            <h2><br>Your Ranking! Your Aura!</h2>
+        </div>
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="images/bg.mp4" type="video/mp4">
+            </video>
+        </div>
+        <h1>Aura Table</h1>
+    </header>
+
+    <main>
+        <marquee></marquee>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Photo</th>
+                    <th>Name</th>
+                    <th>Aura</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="gold">
+                    <td>1</td>
+                    <td><img src="images/4..jpg" alt="Member 2"> <br><br> <img src="images/4..jpg" alt="Member 3"></td>
+                    <td class="name" data-name="Anushka" data-details="Anushka and Pranjali!">Anushka <br><br> Pranjali</td>
+                    <td>14,300+</td>
+                </tr>
+                <tr class="silver">
+                    <td>2</td>
+                    <td><img src="images/1 (S2).png" alt="Member 5"></td>
+                    <td class="name" data-name="Aditya" data-details="Aditya is doing ML! and his past performance! Week 1 3000+ Week 2 4250+ Week 1 4500+ Week 4 2500+">Aditya</td>
+                    <td>14,250+</td>
+                </tr>
+                <tr class="bronze">
+                    <td>3</td>
+                    <td><img src="images/member1.jpg" alt="Member 1"></td>
+                    <td class="name" data-name="Abhay" data-details="Abhay's performance is remarkable with steady growth.">Abhay</td>
+                    <td>13,966+</td>   
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="images/1 (1F).png" alt="Member 4"></td>
+                    <td class="name" data-name="Varun" data-details="Varun is a rising star with a solid contribution.">Varun</td>
+                    <td>13,900+</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><img src="images/1 (3F).png" alt="Member 6"></td>
+                    <td class="name" data-name="Bharat" data-details="Bharat's aura is growing stronger every day.">Bharat</td>
+                    <td>11,450+</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <section class="about">
+        <h2>About Aura Points</h2>
+        <p>Each week, we calculate the aura points based on performance, contribution, and teamwork. The higher the points, the higher the rank!</p>
+    </section>
+
+    <div id="card" class="card">
+        <h3 id="card-name"></h3>
+        <p id="card-details"></p>
+    </div>
+
+    <footer>
+        <p>© 2024 Team Rankings, I was bored, so made a dumb website!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
